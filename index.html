@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4b1720">
+  <meta name="description" content="A royal wedding invitation. Join us to celebrate our special day.">
+  <title>Groom Name &amp; Bride Name | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero" aria-label="Wedding invitation cover">
+      <div class="hero-frame"></div>
+      <div class="hero-content">
+        <p class="ganesh">॥ श्री गणेशाय नमः ॥</p>
+        <div class="top-flourish" aria-hidden="true">❧</div>
+        <p class="eyebrow">Together with our families</p>
+        <h1 id="groom-name">Groom Name</h1>
+        <div class="ampersand">&amp;</div>
+        <h1 id="bride-name">Bride Name</h1>
+        <p class="hero-message">joyfully invite you to celebrate our wedding</p>
+        <p class="hero-date"><span id="hero-date">14 February 2027</span><span class="dot">•</span><span id="hero-time">7:00 PM onwards</span></p>
+        <div class="bottom-flourish" aria-hidden="true">✧ ❀ ✧</div>
+      </div>
+    </section>
+
+    <div class="ornament" aria-hidden="true">✦ ❧ ✦ ❧ ✦</div>
+
+    <section class="paper-card intro-section">
+      <p class="section-kicker">A celebration of love</p>
+      <h2>With the blessings of our families</h2>
+      <p class="intro-copy" id="invitation-message">Two hearts, two families, and one beautiful journey. We would be honoured to have you with us as we begin our forever.</p>
+      <div class="divider-flower" aria-hidden="true">❦</div>
+      <div class="countdown-wrap">
+        <div class="countdown" aria-live="polite">
+          <div><strong id="days">--</strong><span>Days</span></div>
+          <div><strong id="hours">--</strong><span>Hours</span></div>
+          <div><strong id="minutes">--</strong><span>Minutes</span></div>
+          <div><strong id="seconds">--</strong><span>Seconds</span></div>
+        </div>
+        <p class="countdown-caption">until we celebrate together</p>
+      </div>
+    </section>
+
+    <section class="paper-card events-section">
+      <p class="section-kicker">The celebrations</p>
+      <h2>Wedding Events</h2>
+      <div class="event-grid" id="events">
+        <article class="event-card">
+          <div class="event-icon">🌼</div><p class="event-meta">13 February 2027 · 10:00 AM</p>
+          <h3>Haldi</h3><p>A joyful morning filled with sunshine, laughter and blessings.</p>
+        </article>
+        <article class="event-card">
+          <div class="event-icon">🎶</div><p class="event-meta">13 February 2027 · 7:00 PM</p>
+          <h3>Sangeet</h3><p>An evening of music, dance and unforgettable memories.</p>
+        </article>
+        <article class="event-card">
+          <div class="event-icon">💍</div><p class="event-meta">14 February 2027 · 7:00 PM</p>
+          <h3>Wedding</h3><p>Join us as we celebrate the beginning of our forever.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="paper-card venue-section">
+      <p class="section-kicker">Join us</p>
+      <h2>The Wedding Venue</h2>
+      <div class="venue-panel">
+        <div class="venue-pin" aria-hidden="true">⌖</div>
+        <h3 id="venue-name">Your Wedding Venue</h3>
+        <p id="venue-address">Add the complete venue address here</p>
+        <p id="venue-city">Pune, Maharashtra, India</p>
+        <p class="venue-time" id="venue-time">7:00 PM onwards</p>
+      </div>
+      <a class="directions-button" id="maps-link" href="https://maps.google.com/?q=Pune" target="_blank" rel="noopener noreferrer">📍 Get Directions</a>
+    </section>
+
+    <section class="paper-card gallery-section" id="gallery-section" hidden>
+      <p class="section-kicker">Moments to cherish</p>
+      <h2>Our Gallery</h2>
+      <div class="gallery-grid" id="gallery"></div>
+    </section>
+
+    <section class="paper-card closing-section">
+      <p class="section-kicker">Your presence is our present</p>
+      <h2>We can't wait to celebrate with you</h2>
+      <p class="closing-copy">With love,</p>
+      <p class="couple-signature"><span id="signature-groom">Groom Name</span> &amp; <span id="signature-bride">Bride Name</span></p>
+      <p class="family-signature" id="family-signature">With blessings from our families</p>
+    </section>
+
+    <footer class="footer">
+      <p>॥ शुभ विवाह ॥</p>
+      <span>MADE WITH LOVE</span>
+    </footer>
+  </main>
+  <script src="wedding-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
